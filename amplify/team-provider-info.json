@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-industrialsoftwareau-dev-181116-authRole",
+      "UnauthRoleArn": "arn:aws:iam::029238154714:role/amplify-industrialsoftwareau-dev-181116-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::029238154714:role/amplify-industrialsoftwareau-dev-181116-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-industrialsoftwareau-dev-181116-deployment",
+      "UnauthRoleName": "amplify-industrialsoftwareau-dev-181116-unauthRole",
+      "StackName": "amplify-industrialsoftwareau-dev-181116",
+      "StackId": "arn:aws:cloudformation:us-east-1:029238154714:stack/amplify-industrialsoftwareau-dev-181116/994f7770-6ade-11ee-a7a8-1202312cd4f9",
+      "AmplifyAppId": "d2k51am93p6lkt"
+    },
+    "categories": {
+      "function": {
+        "industrialsoftwarecontactuploader": {
+          "sesEmail": "industrialsoftwareautomation@gmail.com",
+          "deploymentBucketName": "amplify-industrialsoftwareau-dev-181116-deployment",
+          "s3Key": "amplify-builds/industrialsoftwarecontactuploader-4c5961514a5254706454-build.zip"
+        }
+      },
+      "api": {
+        "industrialsoftwareau": {}
+      }
+    }
+  }
+}
