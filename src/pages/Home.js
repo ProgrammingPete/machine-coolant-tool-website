@@ -15,10 +15,7 @@ const Home = () => {
             <Intro />
             <Services />
             <Portfolio />
-            {/* <Clients /> TODO: Change to Top MAchine top machine tool coolant manufacturers such as 
-                        MP Systems
-                        LNS chip blaster 
-                        Mazak */}
+            <Clients /> 
             <Cta/>
             <Footer />
         </>
