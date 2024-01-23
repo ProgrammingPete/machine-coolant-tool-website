@@ -24,7 +24,7 @@ const NavBar = () => {
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
                     <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#top">
-                                <h1 className="font-extrabold text-4xl text-blue-900">ISA</h1>
+                                <h1 className="font-extrabold text-4xl text-blue-900">CNC</h1>
                     </HashLink>
                 </div>
                 <div className="group flex flex-col items-center">

@@ -32,7 +32,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Industrial Software Automation - Web Applications for your Industrial Sales PRocesses");
+  useDocTitle("CNC Coolant Pumps - Web Applications for your Industrial Sales PRocesses");
 
   return (
     <>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/web-dev.svg';
+import heroImg from '../images/pumps/Picture2.jpg';
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
-                                Machine Tool Coolant
+                                CNC Coolant Pumps
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
                             Hydra-Cell™ high pressure coolant pumps, known for their reliable sealless design, eliminate issues like leaks and the need for frequent replacements. 
@@ -28,8 +28,8 @@ const Hero = () => {
                                 </HashLink>
                             </div>
                         </div>
-                        <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                        <div className="flex  w-1/4 lg:w-1/4" data-aos="fade-up" data-aos-delay="700">
+                            <img alt="card img" className="absolute rounded-t float-right duration-1000" src={heroImg} />
                         </div>
                     </div>
                 </div>

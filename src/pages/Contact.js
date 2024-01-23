@@ -8,7 +8,7 @@ import { createEmailMessage } from '../graphql/mutations';
 import Notiflix from 'notiflix';
 
 const Contact = () => {
-    useDocTitle('Industrial Software Automation - Send us a message')
+    useDocTitle('CNC Coolant Pumps - Send us a message')
     ScrollToTop();
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
