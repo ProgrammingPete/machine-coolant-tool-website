@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2 text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-xl text-center ">Hyrdra-Cell Accessories</h2>
+                                    <h2 className="font-semibold my-4 text-xl text-center ">Hydra-Cell Accessories</h2>
                                     <p className="text-md font-medium">
                                     As part of our “Mass Customization” approach, Hydra-Cell pumps are available with a variety of in-stock accessories and options to provide a pumping system ideally suited to your installation and application.                                    </p>
                                 </div>

@@ -22,7 +22,7 @@ const Intro = () => {
                             
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    Hydra-Cell™ high pressure coolant pumps, with their sealless design, are crucial for modern high-pressure coolant pump systems. They enhance CNC machining applications like boring, drilling, EDM, grinding, milling, and chip removal. Operating at pressures from 30 to 2500 PSI, these pumps outperform others by avoidin
+                                    Hydra-Cell™ high pressure coolant pumps, with their sealless design, are crucial for modern high-pressure coolant pump systems. They enhance CNC machining applications like boring, drilling, EDM, grinding, milling, and chip removal. Operating at pressures from 30 to 2500 PSI, these pumps outperform others by avoiding leaks and offering rugged construction, versatility, and unmatched performance.
                                 </p>
                             </div>
                             <HashLink to="/contact#top" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
