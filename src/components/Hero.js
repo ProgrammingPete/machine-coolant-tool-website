@@ -1,8 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/pumps/Picture2.jpg';
-import heroImg2 from '../images/pumps/Picture3.jpg';
+import heroImg from '../images/MachineTool.png';
 
 const Hero = () => {
     return (
