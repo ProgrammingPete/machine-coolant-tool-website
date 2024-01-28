@@ -1,7 +1,8 @@
 import React from 'react';
-import img from '../images/web.svg'; 
-import img2 from '../images/app.svg';
-import img4 from '../images/consultation.svg';
+import img from '../images/applications/run-dry.jpg'; 
+import img2 from '../images/applications/controlled.jpg';
+import img3 from '../images/applications/high-pressure.jpg';
+import img4 from '../images/applications/drilling.jpg';
 
 const Services = () => {
 
@@ -46,7 +47,7 @@ const Services = () => {
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
+                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-xl text-center ">High Pressure Coolant Applications </h2>
                                     <p className="text-md font-medium">
                                     High-pressure coolant, known for improving chip breakage and ejection, supports better surface finishes and extends tool life. It enables higher machining speeds and feed rates, contributing to overall efficiency.                                    </p>

@@ -2,6 +2,7 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import NavBar from '../components/Navbar/NavBar';
 import heroImg from '../images/pumps/Picture2.jpg';
+import heroImg2 from '../images/pumps/Picture3.jpg';
 
 const Hero = () => {
     return (
@@ -11,16 +12,16 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
-
-                    <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
-                        <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
+                <div className="m-auto lg:flex-row item-center overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6 my-3" data-aos="zoom-in">
+                    <div className="lg:flex-row justify-between py-8 item-center text-center flex flex-col-reverse ">
+                        <div className=" flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                                 CNC Coolant Pumps
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
                             Hydra-Cell™ high pressure coolant pumps, known for their reliable sealless design, eliminate issues like leaks and the need for frequent replacements. 
-                            This results in increased productivity and cost savings for users, with minimal maintenance—only requiring new check valves and an oil change every 6000 hours.</div>
+                            This results in increased productivity and cost savings for users, with minimal maintenance—only requiring new check valves and an oil change every 6000 hours
+                            </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <HashLink to="/contact#top" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Learn more
@@ -28,9 +29,9 @@ const Hero = () => {
                                 </HashLink>
                             </div>
                         </div>
-                        <div className="flex  w-1/4 lg:w-1/4" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="absolute rounded-t float-right duration-1000" src={heroImg} />
-                        </div>
+                    </div>
+                    <div className="flex lg:mx-4 justify-center">
+                            <img alt="card img" className="rounded-t float-right" src={heroImg} />
                     </div>
                 </div>
             </div>

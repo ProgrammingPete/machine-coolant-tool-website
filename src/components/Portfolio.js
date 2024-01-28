@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../images/pumps/Picture7.png';
 import img2 from '../images/pumps/Picture8.png';
 import img3 from '../images/pumps/metering-accessories-options-1.jpg';
+import img4 from '../images/D15-Metallic-400.jpg';
 
 const Portfolio = () => {
     return (
@@ -26,7 +27,7 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2 text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-xl text-center ">Hydra-Cell Accessories</h2>
+                                    <h2 className="font-semibold my-4 text-xl text-center ">Hyrdra-Cell Accessories</h2>
                                     <p className="text-md font-medium">
                                     As part of our “Mass Customization” approach, Hydra-Cell pumps are available with a variety of in-stock accessories and options to provide a pumping system ideally suited to your installation and application.                                    </p>
                                 </div>
@@ -43,12 +44,15 @@ const Portfolio = () => {
                         </div>
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-10 h-12">Data-Driven Applications</h4>
-                                <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    One of our most renown data-driven applications was for our Amazon client, which enabled them to efficiently use data generated 
-                                    at warehouses. This data was then used to determine the efficiency of workers in a warehouse and quickly notify the regional 
-                                    manager of the warehouse of any loss of headcount. We also included other metrics such as throughput and fullfilment of packages. 
-                                </p>
+                            <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
+                                    <h2 className="font-semibold my-4 text-xl text-center ">D15 Metallic (US)</h2>
+                                    <p className="text-md font-medium">
+                                        Versatile, Reliable Pumps for a Wide Range of Applications
+
+                                        Pumps the full spectrum of low-to-high viscosity fluids.
+                                        Features a seal-less design and horizontal disk check valves that enable the pump to handle abrasives and particulates that might damage or destroy other types of pumps.
+                                        Simple, compact design reduces initial investment and lowers maintenance costs.
+                                     </p>
                             </div>
                         </div>               
                     </div>

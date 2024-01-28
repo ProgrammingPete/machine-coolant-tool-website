@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../images/Web-developer.svg';
+import img from '../images/H25-Non-metallic.jpg';
 import { HashLink } from 'react-router-hash-link';
 
 const Intro = () => {
