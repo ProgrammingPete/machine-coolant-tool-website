@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"12.7.0\",\"stackType\":\"function-Lambda\",\"metadata\":{}}",
+  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"12.10.1\",\"stackType\":\"function-Lambda\",\"metadata\":{}}",
   "Parameters": {
     "CloudWatchRule": {
       "Type": "String",
@@ -16,13 +16,13 @@
     "s3Key": {
       "Type": "String"
     },
-    "apiindustrialsoftwareauGraphQLAPIIdOutput": {
+    "apimachinecoolanttoolweGraphQLAPIIdOutput": {
       "Type": "String",
-      "Default": "apiindustrialsoftwareauGraphQLAPIIdOutput"
+      "Default": "apimachinecoolanttoolweGraphQLAPIIdOutput"
     },
-    "apiindustrialsoftwareauGraphQLAPIEndpointOutput": {
+    "apimachinecoolanttoolweGraphQLAPIEndpointOutput": {
       "Type": "String",
-      "Default": "apiindustrialsoftwareauGraphQLAPIEndpointOutput"
+      "Default": "apimachinecoolanttoolweGraphQLAPIEndpointOutput"
     },
     "sesEmail": {
       "Type": "String"
@@ -58,12 +58,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "industrialsoftwarecontactuploader",
+            "inquiryuploader",
             {
               "Fn::Join": [
                 "",
                 [
-                  "industrialsoftwarecontactuploader",
+                  "inquiryuploader",
                   "-",
                   {
                     "Ref": "env"
@@ -103,12 +103,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "industrialsoftwareauLambdaRolebc5e2973",
+            "machinecoolanttoolweLambdaRolec9332bc1",
             {
               "Fn::Join": [
                 "",
                 [
-                  "industrialsoftwareauLambdaRolebc5e2973",
+                  "machinecoolanttoolweLambdaRolec9332bc1",
                   "-",
                   {
                     "Ref": "env"
@@ -179,13 +179,13 @@
         }
       }
     },
-    "LambdaTriggerPolicyEmailMessage": {
+    "LambdaTriggerPolicyInquiry": {
       "DependsOn": [
         "LambdaExecutionRole"
       ],
       "Type": "AWS::IAM::Policy",
       "Properties": {
-        "PolicyName": "amplify-lambda-execution-policy-EmailMessage",
+        "PolicyName": "amplify-lambda-execution-policy-Inquiry",
         "Roles": [
           {
             "Ref": "LambdaExecutionRole"
@@ -204,7 +204,7 @@
               ],
               "Resource": {
                 "Fn::ImportValue": {
-                  "Fn::Sub": "${apiindustrialsoftwareauGraphQLAPIIdOutput}:GetAtt:EmailMessageTable:StreamArn"
+                  "Fn::Sub": "${apimachinecoolanttoolweGraphQLAPIIdOutput}:GetAtt:InquiryTable:StreamArn"
                 }
               }
             }
@@ -212,10 +212,10 @@
         }
       }
     },
-    "LambdaEventSourceMappingEmailMessage": {
+    "LambdaEventSourceMappingInquiry": {
       "Type": "AWS::Lambda::EventSourceMapping",
       "DependsOn": [
-        "LambdaTriggerPolicyEmailMessage",
+        "LambdaTriggerPolicyInquiry",
         "LambdaExecutionRole"
       ],
       "Properties": {
@@ -223,7 +223,7 @@
         "Enabled": true,
         "EventSourceArn": {
           "Fn::ImportValue": {
-            "Fn::Sub": "${apiindustrialsoftwareauGraphQLAPIIdOutput}:GetAtt:EmailMessageTable:StreamArn"
+            "Fn::Sub": "${apimachinecoolanttoolweGraphQLAPIIdOutput}:GetAtt:InquiryTable:StreamArn"
           }
         },
         "FunctionName": {
@@ -234,32 +234,6 @@
         },
         "StartingPosition": "LATEST"
       }
-    },
-    "CustomLambdaExecutionPolicy": {
-      "Type": "AWS::IAM::Policy",
-      "Properties": {
-        "PolicyName": "custom-lambda-execution-policy",
-        "PolicyDocument": {
-          "Version": "2012-10-17",
-          "Statement": [
-            {
-              "Action": [
-                "ses:SendEmail"
-              ],
-              "Resource": [
-                "arn:aws:ses:us-east-1:029238154714:identity/*"
-              ],
-              "Effect": "Allow"
-            }
-          ]
-        },
-        "Roles": [
-          {
-            "Ref": "LambdaExecutionRole"
-          }
-        ]
-      },
-      "DependsOn": "LambdaExecutionRole"
     }
   },
   "Outputs": {

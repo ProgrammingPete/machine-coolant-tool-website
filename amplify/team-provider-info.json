@@ -1,26 +1,26 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-industrialsoftwareau-dev-181116-authRole",
-      "UnauthRoleArn": "arn:aws:iam::029238154714:role/amplify-industrialsoftwareau-dev-181116-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::029238154714:role/amplify-industrialsoftwareau-dev-181116-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-industrialsoftwareau-dev-181116-deployment",
-      "UnauthRoleName": "amplify-industrialsoftwareau-dev-181116-unauthRole",
-      "StackName": "amplify-industrialsoftwareau-dev-181116",
-      "StackId": "arn:aws:cloudformation:us-east-1:029238154714:stack/amplify-industrialsoftwareau-dev-181116/994f7770-6ade-11ee-a7a8-1202312cd4f9",
-      "AmplifyAppId": "d2k51am93p6lkt"
+      "AuthRoleName": "amplify-machinecoolanttoolwe-dev-155817-authRole",
+      "UnauthRoleArn": "arn:aws:iam::029238154714:role/amplify-machinecoolanttoolwe-dev-155817-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::029238154714:role/amplify-machinecoolanttoolwe-dev-155817-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-machinecoolanttoolwe-dev-155817-deployment",
+      "UnauthRoleName": "amplify-machinecoolanttoolwe-dev-155817-unauthRole",
+      "StackName": "amplify-machinecoolanttoolwe-dev-155817",
+      "StackId": "arn:aws:cloudformation:us-east-2:029238154714:stack/amplify-machinecoolanttoolwe-dev-155817/f6ab7740-be1f-11ee-8703-066bc5e76c49",
+      "AmplifyAppId": "d2s20oqzixzh5t"
     },
     "categories": {
       "function": {
-        "industrialsoftwarecontactuploader": {
-          "sesEmail": "industrialsoftwareautomation@gmail.com",
-          "deploymentBucketName": "amplify-industrialsoftwareau-dev-181116-deployment",
-          "s3Key": "amplify-builds/industrialsoftwarecontactuploader-4c5961514a5254706454-build.zip"
+        "inquiryuploader": {
+          "deploymentBucketName": "amplify-machinecoolanttoolwe-dev-155817-deployment",
+          "s3Key": "amplify-builds/inquiryuploader-6b624652644a67696756-build.zip",
+          "sesEmail": "industrialsoftwareautomation@gmail.com"
         }
       },
       "api": {
-        "industrialsoftwareau": {}
+        "machinecoolanttoolwe": {}
       }
     }
   }

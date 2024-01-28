@@ -1,7 +1,0 @@
-[
-  {
-    "Action": ["ses:SendEmail"],
-    "Resource": ["arn:aws:ses:us-east-1:029238154714:identity/*"],
-    "Effect": "Allow"
-  }
-]

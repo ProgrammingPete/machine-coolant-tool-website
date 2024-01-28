@@ -1,6 +1,6 @@
 {
   "api": {
-    "industrialsoftwareau": {
+    "machinecoolanttoolwe": {
       "dependsOn": [],
       "output": {
         "authConfig": {
@@ -18,44 +18,35 @@
     }
   },
   "function": {
-    "industrialsoftwarecontactuploader": {
+    "inquiryuploader": {
       "build": true,
-      "dependsOn": [
-        {
-          "attributes": [
-            "GraphQLAPIIdOutput",
-            "GraphQLAPIEndpointOutput"
-          ],
-          "category": "api",
-          "resourceName": "industrialsoftwareau"
-        }
-      ],
+      "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_industrialsoftwarecontactuploader_deploymentBucketName": {
+    "AMPLIFY_function_inquiryuploader_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "industrialsoftwarecontactuploader"
+          "resourceName": "inquiryuploader"
         }
       ]
     },
-    "AMPLIFY_function_industrialsoftwarecontactuploader_s3Key": {
+    "AMPLIFY_function_inquiryuploader_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "industrialsoftwarecontactuploader"
+          "resourceName": "inquiryuploader"
         }
       ]
     },
-    "AMPLIFY_function_industrialsoftwarecontactuploader_sesEmail": {
+    "AMPLIFY_function_inquiryuploader_sesEmail": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "industrialsoftwarecontactuploader"
+          "resourceName": "inquiryuploader"
         }
       ]
     }
