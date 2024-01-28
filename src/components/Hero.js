@@ -13,12 +13,12 @@ const Hero = () => {
                 </div>
                 
                 <div className="m-auto lg:flex-row item-center overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6 my-3" data-aos="zoom-in">
-                    <div className="lg:flex-row justify-between py-8 item-center text-center flex flex-col-reverse ">
+                    <div className="lg:flex-row justify-between py-8 item-center text-center flex flex-col-reverse lg:flex">
                         <div className=" flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                                 CNC Coolant Pumps
                             </h1>
-                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
+                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500 lg:flex lg:mx-20 text-center">
                             Hydra-Cell™ high pressure coolant pumps, known for their reliable sealless design, eliminate issues like leaks and the need for frequent replacements. 
                             This results in increased productivity and cost savings for users, with minimal maintenance—only requiring new check valves and an oil change every 6000 hours
                             </div>

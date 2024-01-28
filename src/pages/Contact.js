@@ -151,17 +151,12 @@ const Contact = () => {
                         </div>
                 </div>
                 </form>
-                        <div
-                            className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-blue-900 rounded-2xl">
+                        <div className="w-full lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-blue-900 rounded-2xl">
                             <div className="flex flex-col text-white">
                                 
                                 <div className="flex my-4 w-2/3 lg:w-3/4">
                                     <div className="flex flex-col">
                                         <i className="fas fa-map-marker-alt pt-2 pr-2" />
-                                    </div>
-                                    <div className="flex flex-col">
-                                        <h2 className="text-2xl">Office Address</h2>
-                                        <p className="text-gray-400">PO Box 2468, Cleveland OH, 44124 USA</p>
                                     </div>
                                 </div>
                     
