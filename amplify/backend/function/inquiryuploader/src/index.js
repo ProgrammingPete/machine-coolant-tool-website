@@ -10,6 +10,7 @@ Amplify Params - DO NOT EDIT */
 const { SESClient, SendEmailCommand } =  require("@aws-sdk/client-ses");
 const client = new SESClient({ region: process.env.REGION });
 
+
 exports.handler = async (event) => {
   console.log(`EVENT: ${JSON.stringify(event)}`);
   for (const streamedItem of event.Records) {
