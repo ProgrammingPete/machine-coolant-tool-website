@@ -18,7 +18,7 @@ const Portfolio = () => {
                             <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-xl text-center ">Pumps</h2>
                                     <p className="text-md font-medium">
-                                        Versatile, Reliable Pumps for a Wide Range of Applications. Pumps the full spectrum of low-to-high viscosity fluids. Features a seal-less design and horizontal disk check valves that enable the pump to handle abrasives and particulates that might damage or destroy other types of pumps. Simple, compact design reduces initial investment and lowers maintenance costs.
+                                        Versatile, Reliable Pumps for a Wide Range of Applications. Pumps the full spectrum of low-to-high viscosity fluids. Features a sealless design and horizontal disk check valves that enable the pump to handle abrasives and particulates that might damage or destroy other types of pumps. Simple, compact design reduces initial investment and lowers maintenance costs.
                                     </p>
                             </div>
                         </div>                              
