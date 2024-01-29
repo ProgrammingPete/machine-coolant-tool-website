@@ -19,7 +19,7 @@ const Hero = () => {
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500 lg:flex lg:mx-20 text-center">
                             Hydra-Cell™ high pressure coolant pumps, known for their reliable sealless design, eliminate issues like leaks and the need for frequent replacements. 
-                            This results in increased productivity and cost savings for users, with minimal maintenance—only requiring new check valves and an oil change every 6000 hours
+                            This results in increased productivity and cost savings for users, with minimal maintenance—only requiring new check valves and an oil change every 6000 hours.
                             </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <HashLink to="/contact#top" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
