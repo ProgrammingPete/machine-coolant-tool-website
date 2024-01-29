@@ -25,6 +25,7 @@
       "service": "Lambda"
     }
   },
+  "hosting": {},
   "parameters": {
     "AMPLIFY_function_inquiryuploader_deploymentBucketName": {
       "usedBy": [
